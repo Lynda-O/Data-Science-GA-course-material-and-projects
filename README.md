@@ -1,87 +1,84 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Exploratory Data Analysis in Python
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Your Development Environment
 
-> Unit Project
+> Unit 1, Flex
 
 ---
 
 ## Materials We Provide
 
-| Item | Description | Link |
+| Topic | Description | Link |
 | --- | --- | --- |
-| Option 1: IMDB Starter Code | Project Prompts and Description | [Here](./project-eda-imdb.ipynb) |
-| Option 1: IMDB Dataset | IMDB Dataset | [Here](./data/imdb_1000.csv) |
-| --- | --- | --- |
-| Option 2: Chipotle Starter Code | Project Prompts and Description | [Here](./project-eda-chipotle.ipynb) |
-| Option 2: Chipotle Dataset | Dataset File | [Here](./data/chipotle.tsv) |
-
-> Note: Instructors should withold providing project solutions until students have submitted their drafts. 
-
---
-
-
-## Project Objectives
-For this project, you will be conducting basic exploratory data analysis, practicing your data analysis skills while becoming comfortable with Python (Pandas not required).
-
-For this project, we have provided **two options**. Students should choose **one** of the following options, then complete all of the **required** sections for the option they've chosen:
-
-
-### Option 1: Best for New Programmers
-Using your new python skills, complete a series of guided prompts exploring [the top-rated movies on IMDB](./data/imdb_1000.csv). IMDB stands for "the Internet Movie Database," an online collection of film information and reviews.
- 
-In these exercises, students will be looking to answer such questions as: 
-
-- What is the average rating per genre?
-- How many different actors are in a movie?
-
-The IMDB dataset provided is created from data scraped from the [Internet Movie Database website](https://www.imdb.com. The dataset describes top ranking movies, including: title, data, duration, content rating, headlining actors, and ranking.
-
-
-### Option 2: Best for Intermediate Programmers
-Using python, conduct some exploratory data analysis on Chipotle's order data. You will be looking to answer such questions as: 
-
-  - How many orders are being made?
-  - What is the average price per order?
-  - How many different ingredients? 
-
-The Chipotle data set is taken from "The Upshot" column in The New York Times. It was chosen because the data is from a familiar source representing real world consumer transaction data - plus their guacamole is delicious. 
-
-This dataset was analyzed in-depth by [data scientists from the New York Times](https://www.nytimes.com/interactive/2015/02/17/upshot/what-do-people-actually-order-at-chipotle.html). We have modified our questions based on their analysis, but we encourage students **not** to review their analysis until **after** they have made their own attempt.
+| Lesson | Two-part lesson on command line (part-1) and git (part-2)| [Here](./Your-Development-Environment.ipynb) |
+| Practice Activity | Jupyter Notebook Practice | [Here](./practice/ipynb_practice1.ipynb) |
+| Practice Solutions | Jupyter Notebook Solutions | [Here](./practice/solution-code/ipynb_practice1-solution.ipynb) |
+| Extra Materials | Source Materials Adapted For This Lesson | [Here](./extra-materials/) |
 
 ---
 
-## Project Requirements
+## Learning Objectives
+By the end of this lesson, students will be able to:
 
-In a Jupyter Notebook, create working solutions for all of the **required** questions for the Option you've chosen. Your notebook should include:
+### Part 1 : Using the Command Line
 
-1. Text for each question, copy and pasted from the starter-code provided.
-2. A working solution to each problem.
-   - Do not include test, practice, or broken code (*unless you were unable to create a working solution*).
-3. Comments for all of your code.
-   - In your comments, describe any assumptions you made in order to solve these problems.
+- Create folders and files using the command line (`mkdir`, `touch`).
+- Change directories and list directory content (`cd`, `ls`).
+- Check the current working directory (`pwd`).
 
-4. **Optional**: After completing the required portions, try your hand at the other option or complete the **bonus** sections for an additional challenge!
+### Part 2 : Introduction to Git
 
----
-
-## Rubric
-
-For all projects, requirements will be evaluated on a simple point scale of 0, 1, or 2. Additionally, instructors will provide you with feedback on required portions of your project.
-
-Score | Expectations
-:--- | :---
-**0** | _Incomplete._
-**1** | _Does not meet expectations._
-**2** | _Meets expectations, good job!_
-**3** | _Surpasses our wildest expectations!_
-
-> Note: Scores of `2` mean that a requirement has been completely fulfilled, while `3` is typically reserved for bonus objectives.
+- Use and explain common Git commands, including `init`, `add`, `commit`, `push`, `pull`, and `clone`.
+- Distinguish between local and remote repositories.
+- Create, copy, and delete repositories locally or on GitHub.
+- Clone remote repositories.
+- Establish Secure Shell connections to remote repositories.
 
 ---
 
-## Submission
+## Student Requirements
 
-Your instructor will explain how to submit your assignment. Typically, this is done either by:
+Before this lesson(s), students should already be able to:
+- Login to their General Assembly GitHub Enterprise account.
+- Determine their current python version
+- [Download and install Anaconda](https://www.continuum.io/downloads)
+- [Download and install `git bash` if needed](https://git-for-windows.github.io)
 
- - Creating a repository in your github profile, hosting your materials, and sharing a link with your instructor. [or]
- - Forking the project repository, adding your solutions, and submitting a pull request back to the relevant repo.
+---
 
+## Lesson Outline
+
+> Instructor Note: The Jupyter Notebook Practice can be used as a take-home practice assignment. Students often do not understand Git right away, so the majority of this lesson will be understanding and practicing Git.
+
+### Part 1: Using the Command Line
+> 70 mins
+- Introduction
+- Command Line (10 mins)
+- Paths/Navigating (20 mins)
+- Editing and Examining Files (10 mins)
+- Finding Files (10 mins)
+- Independent Practice (10 mins)
+- Intro to IDEs (10 mins)
+- Conclusion
+
+### Part Two: Git and GitHub
+> 100 mins
+- Introduction
+- Git Basics (15 mins)
+- Codealong: Let's Git into it! (20 mins)
+- Setting up Accounts: GitHub & GitHub Enterprise Accounts (10 mins)
+- Codealong: Creating and Cloning Repos (20 mins)
+- Codealong: Create a Pull Request on GitHub: (15 mins)
+- Secure Shell(SSH) (10 mins)
+- Independent Practice (10 mins)
+- Conclusion
+
+---
+
+## Additional Resources
+
+For more information on this topic, check out the following resources:
+
+- [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+- [Terminal: Mac vs PC](https://stackoverflow.com/questions/28487128/what-program-in-windows-is-equivalent-to-oss-terminal)
+- [Try Git - Basic Syntax practice](https://try.github.io/levels/1/challenges/1)
+- [Extra Command Line Practice](http://generalassembly.github.io/prework/cl/)
+- [Jupyter Notebook Documentation](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/)
